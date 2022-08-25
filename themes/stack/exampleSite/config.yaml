@@ -1,9 +1,23 @@
-baseurl: https://blog.matcha1024.net
-languageCode: ja-jp
-theme: stack
+baseurl: https://example.com
+languageCode: en-us
+theme: hugo-theme-stack
 paginate: 5
-title: 覚書
+title: Example Site
 
+languages:
+    en:
+        languageName: English
+        title: Example Site
+        weight: 1
+    zh-cn:
+        languageName: 中文
+        title: 演示站点
+        weight: 2
+    ar:
+        languageName: عربي
+        languagedirection: rtl
+        title: موقع تجريبي
+        weight: 3
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -13,7 +27,7 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: ja
+DefaultContentLanguage: en
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
@@ -40,9 +54,9 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: 僕が覚えたことを少しだけ書きます。
+        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         avatar:
-            enabled: false
+            enabled: true
             local: true
             src: img/avatar.png
 
@@ -51,11 +65,11 @@ params:
         toc: true
         readingTime: true
         license:
-            enabled: false
+            enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
+        enabled: true
         provider: disqus
 
         disqusjs:
@@ -182,13 +196,13 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/matcha1024/blog/
+          url: https://github.com/CaiJimmy/hugo-theme-stack
           params:
               icon: brand-github
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com/updownleftrigh_/
+          url: https://twitter.com
           params:
               icon: brand-twitter
 
