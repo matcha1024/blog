@@ -1,4 +1,4 @@
-baseurl: https://example.com
+baseurl: https://blog.matcha1024.net
 languageCode: ja-jp
 theme: hugo-theme-stack
 paginate: 5
