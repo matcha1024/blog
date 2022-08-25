@@ -4,6 +4,7 @@ title = "mason.nvimでFormatter, Linterを自動マッピングする"
 date = "2022-08-25"
 description = "zennと同じ"
 tags = [
+		"vim",
     "neovim",
 ]
 categories = [
