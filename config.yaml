@@ -1,4 +1,4 @@
-baseurl: https://blog.matcha1024.net
+baseurl: https://matcha1024.net
 languageCode: ja-jp
 theme: stack
 paginate: 5
@@ -149,7 +149,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: updownleftrigh_
 
             # Available values: summary, summary_large_image
             card: summary_large_image
