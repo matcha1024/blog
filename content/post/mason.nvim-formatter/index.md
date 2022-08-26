@@ -13,6 +13,7 @@ categories = [
 series = ["tech memo"]
 aliases = ["migrate-from-jekyl"]
 image = "pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg"
+slug = "mason.nvim-memo"
 +++
 
 `mason-lspconfig` でLSPを自動マッピングすることはヘルプにも方法が書いてあり、すぐにできますがFormatter, Linterは少しドキュメントを読まないといけないので、書き留めておきます。  
