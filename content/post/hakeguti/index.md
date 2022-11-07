@@ -2,7 +2,7 @@
 title: "はけ口"
 slug: "hakeguti"
 date: 2022-10-18T22:45:42+09:00
-draft: false
+draft: true
 tags: ["雑記"]
 categories: ["note"]
 ---

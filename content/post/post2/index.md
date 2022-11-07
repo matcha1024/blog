@@ -2,7 +2,7 @@
 title: "Post 2"
 slug: "post2"
 date: 2022-10-12T23:00:30+09:00
-draft: false
+draft: true
 tags: [
     "雑記",
 ]
